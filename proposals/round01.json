@@ -1,0 +1,10 @@
+{
+  "action": "evaluate",
+  "hypothesis": "第一轮：硬截断候选不满足平方根的H1边界条件。保持alpha=0.5和R=14，比较四种平滑层宽度，检验平滑是否保留较高比值。预期过宽的平滑层会改变尾部太多，但这必须由工具检验。",
+  "candidates": [
+    {"alpha": 0.5, "radius": 14, "width": 0.25, "bumps": []},
+    {"alpha": 0.5, "radius": 14, "width": 0.5, "bumps": []},
+    {"alpha": 0.5, "radius": 14, "width": 1, "bumps": []},
+    {"alpha": 0.5, "radius": 14, "width": 2, "bumps": []}
+  ]
+}

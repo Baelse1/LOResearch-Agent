@@ -1,0 +1,1 @@
+{"actual_api_calls": 0, "checks": ["invalid candidate rejection", "valid candidate verification", "feedback passed to next call", "finish routing", "round cap", "invalid JSON cap", "trace hash-chain validation"], "status": "passed"}

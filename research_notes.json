@@ -1,0 +1,21 @@
+{
+  "scope": "N=2, spherical three-dimensional densities; this subset cannot settle the universal Lieb-Oxford constant",
+  "definition": "lambda=(D-V_SCE)/(C_x*integral rho^(4/3)); C_x=(3/4)(3/pi)^(1/3)",
+  "historical_benchmark": {
+    "lambda": 1.701052,
+    "source": "Seidl, Vuckovic, Gori-Giorgi (2016), Eq. (60)",
+    "url": "https://doi.org/10.1080/00268976.2015.1136440",
+    "preprint": "https://arxiv.org/abs/1508.01715",
+    "warning": "A historical comparator, not a verified current record. Beating it does not establish novelty."
+  },
+  "previous_fixed_experiments": {
+    "exponential_lambda": 1.699052430,
+    "untruncated_r_half_exp_lambda": 1.700965186,
+    "hard_cutoff_r_half_exp_lambda": 1.700974139,
+    "hard_cutoff_parameters": {"alpha": 0.5, "radius": 13.69},
+    "warning": "Hard cutoff generally gives sqrt(rho) outside H1; it is only an SCE/classical benchmark."
+  },
+  "research_objective": "Propose smooth compactly supported densities and local perturbations, test and revise using independent numerical checks.",
+  "verification": "Normalization, refinement and different integration variables. Shared CDF inverse means cross-checks are not fully algorithmically independent. No interval certification.",
+  "limits": "No assertion of a physical Coulomb ground-state density. Finite kinetic admissibility of a density does not make the singular SCE coupling a finite-kinetic wavefunction."
+}

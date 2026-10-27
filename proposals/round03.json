@@ -1,0 +1,10 @@
+{
+  "action": "evaluate",
+  "hypothesis": "第二轮alpha=0.4给出lambda约1.701027508，优于0.5但仍低于历史比较值。只调一个幂指数限制了形状自由度。保持alpha=0.4、R=14、width=1，分别对内侧与中部作正负高斯对数扰动，寻找有利的局部变化方向；这不是预先保证的改进。",
+  "candidates": [
+    {"alpha": 0.4, "radius": 14, "width": 1, "bumps": [{"amplitude": 0.05, "center": 1, "sigma": 0.8}]},
+    {"alpha": 0.4, "radius": 14, "width": 1, "bumps": [{"amplitude": -0.05, "center": 1, "sigma": 0.8}]},
+    {"alpha": 0.4, "radius": 14, "width": 1, "bumps": [{"amplitude": 0.05, "center": 3, "sigma": 1.2}]},
+    {"alpha": 0.4, "radius": 14, "width": 1, "bumps": [{"amplitude": -0.05, "center": 3, "sigma": 1.2}]}
+  ]
+}

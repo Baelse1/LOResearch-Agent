@@ -1,0 +1,1677 @@
+{
+  "model": "gpt-6.1-sol",
+  "provenance": "user_uploaded_autonomous_chatgpt_plan_run",
+  "round_count": 6,
+  "candidate_count": 24,
+  "all_candidates_accepted": true,
+  "event_count": 20,
+  "hash_chain_valid": true,
+  "state_matches_trace": true,
+  "feedback_history_valid": true,
+  "ended_by_model": false,
+  "stop_reason": "configured_model_call_budget",
+  "elapsed_seconds": 83.4940714000004,
+  "start_time_shanghai": "2026-10-27T12:37:17.883769+08:00",
+  "end_time_shanghai": "2026-10-27T12:38:41.378169+08:00",
+  "usage": {
+    "input_tokens": 40681,
+    "output_tokens": 1927,
+    "total_tokens": 42608
+  },
+  "model_seconds": 82.82946759999868,
+  "tool_seconds": 0.6420390000021143,
+  "rounds": [
+    {
+      "round": 1,
+      "hypothesis": "The supplied experiments place r^(1/2) exp(-r) near the historical comparator 1.701052. A smooth outer taper tests whether that performance survives compact support, while modest variations in alpha and broad local perturbations probe nearby shapes. These are candidates for numerical verification, not established improvements.",
+      "best_lambda": 1.701023976724485,
+      "running_best": 1.701023976724485,
+      "usage": {
+        "attribution": {
+          "items": {
+            "msg_016311843b2bad20016ae02a7f1a5087d098867774e658c3de": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 370,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 370,
+              "output_tokens": 0
+            },
+            "msg_016311843b2bad20016ae02a816c7887d08f0bb4a92da941a7": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2,
+                  "output_tokens": 250
+                }
+              ],
+              "input_tokens": 2,
+              "output_tokens": 250
+            }
+          },
+          "request_fields": {
+            "instructions": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 286,
+              "output_tokens": 0
+            }
+          }
+        },
+        "input_tokens": 658,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 250,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 908
+      },
+      "model_seconds": 11.173482799998965,
+      "tool_seconds": 0.10455480000018724
+    },
+    {
+      "round": 2,
+      "hypothesis": "All four candidates passed the numerical checks. The best, alpha=0.4, gave lambda=1.701023976724485, below the historical 1.701052 comparator. Refine alpha near 0.42 and test negative broad bumps, since the positive bump reduced the ratio. These tests provide numerical evidence, not certified bounds or global optimality.",
+      "best_lambda": 1.7012016904754546,
+      "running_best": 1.7012016904754546,
+      "usage": {
+        "attribution": {
+          "items": {
+            "msg_083d316f32ae2a54016ae02a8a839487d0b3ba864b26957761": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 370,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 370,
+              "output_tokens": 0
+            },
+            "msg_083d316f32ae2a54016ae02a8a83b087d08426f32f37ee9803": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 252,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 252,
+              "output_tokens": 0
+            },
+            "msg_083d316f32ae2a54016ae02a8a83c887d0a014c2a249e7f479": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2058,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 2058,
+              "output_tokens": 0
+            },
+            "msg_083d316f32ae2a54016ae02a8bff2887d08cd4ef10f63a9c86": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2,
+                  "output_tokens": 323
+                }
+              ],
+              "input_tokens": 2,
+              "output_tokens": 323
+            }
+          },
+          "request_fields": {
+            "instructions": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 286,
+              "output_tokens": 0
+            }
+          }
+        },
+        "input_tokens": 2968,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 323,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3291
+      },
+      "model_seconds": 12.670715700000073,
+      "tool_seconds": 0.10947870000018156
+    },
+    {
+      "round": 3,
+      "hypothesis": "All checks passed. The negative bump at center 5 gave lambda=1.7012016904754546, numerically above the historical comparator 1.701052 by about 0.00014969; this is not interval-certified or a novelty claim. Negative bumps at center 3 lowered the ratio. Test stronger suppression near center 5 and nearby centers.",
+      "best_lambda": 1.70126160554606,
+      "running_best": 1.70126160554606,
+      "usage": {
+        "attribution": {
+          "items": {
+            "msg_045d8230ab59ac49016ae02a977c1887d090e6a10ae2152b66": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 370,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 370,
+              "output_tokens": 0
+            },
+            "msg_045d8230ab59ac49016ae02a977c6887d08862b4c93d1f1c11": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 252,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 252,
+              "output_tokens": 0
+            },
+            "msg_045d8230ab59ac49016ae02a977c9887d0aa3aac670f9386f7": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2058,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 2058,
+              "output_tokens": 0
+            },
+            "msg_045d8230ab59ac49016ae02a977cc087d0955b5f05f49b12ca": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 325,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 325,
+              "output_tokens": 0
+            },
+            "msg_045d8230ab59ac49016ae02a977ce087d0916ddbefae4822c7": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2163,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 2163,
+              "output_tokens": 0
+            },
+            "msg_045d8230ab59ac49016ae02a9958f487d0a12050b33eb4650a": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2,
+                  "output_tokens": 357
+                }
+              ],
+              "input_tokens": 2,
+              "output_tokens": 357
+            }
+          },
+          "request_fields": {
+            "instructions": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 286,
+              "output_tokens": 0
+            }
+          }
+        },
+        "input_tokens": 5456,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 357,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 5813
+      },
+      "model_seconds": 14.275230700000975,
+      "tool_seconds": 0.10648749999927531
+    },
+    {
+      "round": 4,
+      "hypothesis": "All checks passed; the best tested ratio is 1.70126160554606, above the historical comparator 1.701052 but not certified. Suppression of amplitude -0.2 outperformed -0.3 at center 5. Test the intermediate center 5.25, vary bump breadth, and reduce alpha to probe coupling between the inner profile and outer suppression.",
+      "best_lambda": 1.7012719698535128,
+      "running_best": 1.7012719698535128,
+      "usage": {
+        "attribution": {
+          "items": {
+            "msg_042f4cdef13d7f53016ae02aa6260887d09414e539bf3ebebc": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 370,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 370,
+                  "input_tokens": 370,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 370,
+              "output_tokens": 0
+            },
+            "msg_042f4cdef13d7f53016ae02aa6263887d0a9e9ae2c8491b0b0": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 252,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 252,
+                  "input_tokens": 252,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 252,
+              "output_tokens": 0
+            },
+            "msg_042f4cdef13d7f53016ae02aa6265c87d0a68092bcd4bf2ee7": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 2058,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 2058,
+                  "input_tokens": 2058,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 2058,
+              "output_tokens": 0
+            },
+            "msg_042f4cdef13d7f53016ae02aa6268087d0830bb29a5d9e6320": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 325,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 325,
+                  "input_tokens": 325,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 325,
+              "output_tokens": 0
+            },
+            "msg_042f4cdef13d7f53016ae02aa626a487d084c6fd5014044684": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 2163,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 2163,
+                  "input_tokens": 2163,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 2163,
+              "output_tokens": 0
+            },
+            "msg_042f4cdef13d7f53016ae02aa626c887d08b87cfe87e83aedf": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 178,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 178,
+                  "input_tokens": 359,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 359,
+              "output_tokens": 0
+            },
+            "msg_042f4cdef13d7f53016ae02aa626ec87d09e3ead916c2b826e": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2200,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 2200,
+              "output_tokens": 0
+            },
+            "msg_042f4cdef13d7f53016ae02aa7ed7487d09694316efbcde7e2": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2,
+                  "output_tokens": 368
+                }
+              ],
+              "input_tokens": 2,
+              "output_tokens": 368
+            }
+          },
+          "request_fields": {
+            "instructions": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 286,
+              "input_tokens": 286,
+              "output_tokens": 0
+            }
+          }
+        },
+        "input_tokens": 8015,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 5632
+        },
+        "output_tokens": 368,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 8383
+      },
+      "model_seconds": 15.012996499999645,
+      "tool_seconds": 0.10553320000144595
+    },
+    {
+      "round": 5,
+      "hypothesis": "All checks passed. The best tested value, 1.7012719698535128, exceeds the historical comparator 1.701052 numerically, without certification or a novelty claim. Reducing alpha to 0.35 lowered the ratio. Test increased alpha, an intermediate bump breadth, and a changed outer taper to assess local improvement and tail sensitivity.",
+      "best_lambda": 1.70128210979679,
+      "running_best": 1.70128210979679,
+      "usage": {
+        "attribution": {
+          "items": {
+            "msg_01fa89851846706e016ae02ab8902c87d0b7e88a982be7b703": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 370,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 370,
+              "output_tokens": 0
+            },
+            "msg_01fa89851846706e016ae02ab8905c87d0aa76a762f84caf32": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 252,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 252,
+              "output_tokens": 0
+            },
+            "msg_01fa89851846706e016ae02ab8907c87d0afb07b00bbd392ba": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2058,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 2058,
+              "output_tokens": 0
+            },
+            "msg_01fa89851846706e016ae02ab8909887d0833e7860e475457f": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 325,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 325,
+              "output_tokens": 0
+            },
+            "msg_01fa89851846706e016ae02ab890b887d0b4efdbcf29eb64fc": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2163,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 2163,
+              "output_tokens": 0
+            },
+            "msg_01fa89851846706e016ae02ab890d487d094ee6f2980bfe56a": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 359,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 359,
+              "output_tokens": 0
+            },
+            "msg_01fa89851846706e016ae02ab890f487d080b25633a1aff11e": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2200,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 2200,
+              "output_tokens": 0
+            },
+            "msg_01fa89851846706e016ae02ab8911487d0a024f181bf493b80": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 370,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 370,
+              "output_tokens": 0
+            },
+            "msg_01fa89851846706e016ae02ab8913087d0b9a05a6d44f4a4ae": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2189,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 2189,
+              "output_tokens": 0
+            },
+            "msg_01fa89851846706e016ae02abaaaa887d08d470f158955ae89": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2,
+                  "output_tokens": 245
+                }
+              ],
+              "input_tokens": 2,
+              "output_tokens": 245
+            }
+          },
+          "request_fields": {
+            "instructions": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 286,
+              "output_tokens": 0
+            }
+          }
+        },
+        "input_tokens": 10574,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 245,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 10819
+      },
+      "model_seconds": 14.704987699999037,
+      "tool_seconds": 0.10581780000029539
+    },
+    {
+      "round": 6,
+      "hypothesis": "All checks passed. The intermediate breadth sigma=1.75 improved the best tested ratio to 1.70128210979679, numerically above the historical comparator 1.701052 without certification or a novelty claim. Larger alpha and the extended tail lowered the ratio. Probe smaller amplitude changes and a second localized perturbation around this shape.",
+      "best_lambda": 1.7012964271664508,
+      "running_best": 1.7012964271664508,
+      "usage": {
+        "attribution": {
+          "items": {
+            "msg_0e7d5ffcca14d3c2016ae02ac3ca4c87d093d2cd14220d96c2": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 370,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 370,
+              "output_tokens": 0
+            },
+            "msg_0e7d5ffcca14d3c2016ae02ac3ca7487d0ae9ab669ca5e75ec": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 252,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 252,
+              "output_tokens": 0
+            },
+            "msg_0e7d5ffcca14d3c2016ae02ac3ca8c87d0bd71477fca66749c": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2058,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 2058,
+              "output_tokens": 0
+            },
+            "msg_0e7d5ffcca14d3c2016ae02ac3caa487d0a9a11502456f6784": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 325,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 325,
+              "output_tokens": 0
+            },
+            "msg_0e7d5ffcca14d3c2016ae02ac3cab887d0b3a842f341df223d": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2163,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 2163,
+              "output_tokens": 0
+            },
+            "msg_0e7d5ffcca14d3c2016ae02ac3cad087d0aa4fce0ed022c5f6": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 359,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 359,
+              "output_tokens": 0
+            },
+            "msg_0e7d5ffcca14d3c2016ae02ac3caec87d0805084a11f06fb49": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2200,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 2200,
+              "output_tokens": 0
+            },
+            "msg_0e7d5ffcca14d3c2016ae02ac3cb0887d0aa5b29563e6304db": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 370,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 370,
+              "output_tokens": 0
+            },
+            "msg_0e7d5ffcca14d3c2016ae02ac3cb1c87d0881271d0de16e598": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2189,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 2189,
+              "output_tokens": 0
+            },
+            "msg_0e7d5ffcca14d3c2016ae02ac3cb3487d093e4f8fb8233dc39": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 247,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 247,
+              "output_tokens": 0
+            },
+            "msg_0e7d5ffcca14d3c2016ae02ac3cb4887d0b69c4c23761d90d8": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2189,
+                  "output_tokens": 0
+                }
+              ],
+              "input_tokens": 2189,
+              "output_tokens": 0
+            },
+            "msg_0e7d5ffcca14d3c2016ae02ac5978087d0a60ffa4629087811": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "content": [
+                {
+                  "cache_write_tokens": 0,
+                  "cached_tokens": 0,
+                  "input_tokens": 2,
+                  "output_tokens": 384
+                }
+              ],
+              "input_tokens": 2,
+              "output_tokens": 384
+            }
+          },
+          "request_fields": {
+            "instructions": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 286,
+              "output_tokens": 0
+            }
+          }
+        },
+        "input_tokens": 13010,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 384,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 13394
+      },
+      "model_seconds": 14.992054199999984,
+      "tool_seconds": 0.11016700000072888
+    }
+  ],
+  "candidates": [
+    {
+      "round": 1,
+      "candidate_id": 1,
+      "candidate": {
+        "alpha": 0.5,
+        "bumps": [],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7009733940766587,
+      "C_ratio": 1.2562688115778986,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 1.7896795156957523e-13,
+      "coordinate_disagreement": 6.727951529228449e-14
+    },
+    {
+      "round": 1,
+      "candidate_id": 2,
+      "candidate": {
+        "alpha": 0.4,
+        "bumps": [],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.701023976724485,
+      "C_ratio": 1.2563061698358775,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 2.4424906541753444e-15,
+      "coordinate_disagreement": 6.2236882314437025e-12
+    },
+    {
+      "round": 1,
+      "candidate_id": 3,
+      "candidate": {
+        "alpha": 0.6,
+        "bumps": [],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.700760564499314,
+      "C_ratio": 1.2561116244278052,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 1.3300471835009375e-13,
+      "coordinate_disagreement": 7.562617199141641e-12
+    },
+    {
+      "round": 1,
+      "candidate_id": 4,
+      "candidate": {
+        "alpha": 0.5,
+        "bumps": [
+          {
+            "amplitude": 0.1,
+            "center": 3.0,
+            "sigma": 2.0
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7007888043467771,
+      "C_ratio": 1.2561324812147106,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 2.8421709430404007e-13,
+      "coordinate_disagreement": 4.6771475581408595e-12
+    },
+    {
+      "round": 2,
+      "candidate_id": 1,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7010279249289566,
+      "C_ratio": 1.2563090858169015,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 2.042810365310288e-14,
+      "coordinate_disagreement": 4.593214697479198e-12
+    },
+    {
+      "round": 2,
+      "candidate_id": 2,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.05,
+            "center": 3.0,
+            "sigma": 2.0
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7010194943052748,
+      "C_ratio": 1.2563028593058752,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 1.9340085088970227e-13,
+      "coordinate_disagreement": 7.027711745877241e-13
+    },
+    {
+      "round": 2,
+      "candidate_id": 3,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.1,
+            "center": 3.0,
+            "sigma": 2.0
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.700972488924368,
+      "C_ratio": 1.2562681430697393,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 1.816324868286756e-13,
+      "coordinate_disagreement": 3.895772593409674e-12
+    },
+    {
+      "round": 2,
+      "candidate_id": 4,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.1,
+            "center": 5.0,
+            "sigma": 2.0
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7012016904754546,
+      "C_ratio": 1.2564374218845626,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 4.196643033083092e-14,
+      "coordinate_disagreement": 6.30961949354969e-12
+    },
+    {
+      "round": 3,
+      "candidate_id": 1,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.0,
+            "sigma": 2.0
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.701261370145156,
+      "C_ratio": 1.2564814988277955,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 1.9451107391432743e-13,
+      "coordinate_disagreement": 4.215294779896794e-12
+    },
+    {
+      "round": 3,
+      "candidate_id": 2,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.3,
+            "center": 5.0,
+            "sigma": 2.0
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7012128593396725,
+      "C_ratio": 1.2564456707471414,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 3.015365734881925e-13,
+      "coordinate_disagreement": 5.695444116327053e-13
+    },
+    {
+      "round": 3,
+      "candidate_id": 3,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 4.5,
+            "sigma": 2.0
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7011937152352286,
+      "C_ratio": 1.2564315317009798,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 1.4366285938649526e-13,
+      "coordinate_disagreement": 1.2632117574185031e-12
+    },
+    {
+      "round": 3,
+      "candidate_id": 4,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.5,
+            "sigma": 2.0
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.70126160554606,
+      "C_ratio": 1.2564816726851968,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 2.6645352591003757e-15,
+      "coordinate_disagreement": 6.551426068313049e-12
+    },
+    {
+      "round": 4,
+      "candidate_id": 1,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.25,
+            "sigma": 2.0
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7012695886753566,
+      "C_ratio": 1.2564875686953219,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 3.197442310920451e-14,
+      "coordinate_disagreement": 6.047384815133228e-12
+    },
+    {
+      "round": 4,
+      "candidate_id": 2,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.25,
+            "sigma": 1.5
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7012719698535128,
+      "C_ratio": 1.2564893273353235,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 2.5290880500961066e-13,
+      "coordinate_disagreement": 2.113420549676448e-12
+    },
+    {
+      "round": 4,
+      "candidate_id": 3,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.25,
+            "sigma": 2.5
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7012242966306628,
+      "C_ratio": 1.256454117858666,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 2.391420395042587e-13,
+      "coordinate_disagreement": 6.88116230662672e-13
+    },
+    {
+      "round": 4,
+      "candidate_id": 4,
+      "candidate": {
+        "alpha": 0.35,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.25,
+            "sigma": 2.0
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7011802740723212,
+      "C_ratio": 1.2564216046122842,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 2.546851618490109e-13,
+      "coordinate_disagreement": 5.879741138414829e-13
+    },
+    {
+      "round": 5,
+      "candidate_id": 1,
+      "candidate": {
+        "alpha": 0.48,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.25,
+            "sigma": 1.5
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7012561462707607,
+      "C_ratio": 1.2564776406895664,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 1.8252066524837574e-13,
+      "coordinate_disagreement": 3.127276215764141e-12
+    },
+    {
+      "round": 5,
+      "candidate_id": 2,
+      "candidate": {
+        "alpha": 0.54,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.25,
+            "sigma": 1.5
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7011889592898952,
+      "C_ratio": 1.2564280191558614,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 2.6645352591003757e-14,
+      "coordinate_disagreement": 7.069012042393297e-12
+    },
+    {
+      "round": 5,
+      "candidate_id": 3,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.25,
+            "sigma": 1.75
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.70128210979679,
+      "C_ratio": 1.2564968162793215,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 1.1102230246251565e-14,
+      "coordinate_disagreement": 5.590194973592588e-12
+    },
+    {
+      "round": 5,
+      "candidate_id": 4,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.25,
+            "sigma": 1.5
+          }
+        ],
+        "radius": 18.0,
+        "width": 2.0
+      },
+      "lambda_ratio": 1.7012620999135775,
+      "C_ratio": 1.2564820378046606,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 2.615685446016869e-13,
+      "coordinate_disagreement": 1.9533263895255004e-12
+    },
+    {
+      "round": 6,
+      "candidate_id": 1,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.16,
+            "center": 5.25,
+            "sigma": 1.75
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7012719287379654,
+      "C_ratio": 1.2564892969690755,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 2.62234678416462e-13,
+      "coordinate_disagreement": 4.239941731043473e-12
+    },
+    {
+      "round": 6,
+      "candidate_id": 2,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.24,
+            "center": 5.25,
+            "sigma": 1.75
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7012732463314932,
+      "C_ratio": 1.2564902700893261,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 4.6629367034256575e-15,
+      "coordinate_disagreement": 5.0528470296740124e-12
+    },
+    {
+      "round": 6,
+      "candidate_id": 3,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.25,
+            "sigma": 1.75
+          },
+          {
+            "amplitude": 0.03,
+            "center": 2.0,
+            "sigma": 1.0
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7012964271664508,
+      "C_ratio": 1.256507390498196,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 1.8762769116165146e-13,
+      "coordinate_disagreement": 2.559508160970836e-12
+    },
+    {
+      "round": 6,
+      "candidate_id": 4,
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.25,
+            "sigma": 1.75
+          },
+          {
+            "amplitude": -0.03,
+            "center": 2.0,
+            "sigma": 1.0
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "lambda_ratio": 1.7012379451344575,
+      "C_ratio": 1.2564641980807916,
+      "accepted": true,
+      "checks": {
+        "cdf_repair": true,
+        "coordinate_agreement": true,
+        "grid_refinement": true,
+        "normalization": true
+      },
+      "grid_difference": 2.533528942194607e-13,
+      "coordinate_disagreement": 5.841549466367724e-12
+    }
+  ],
+  "best": {
+    "round": 6,
+    "candidate_id": 3,
+    "candidate": {
+      "alpha": 0.42,
+      "bumps": [
+        {
+          "amplitude": -0.2,
+          "center": 5.25,
+          "sigma": 1.75
+        },
+        {
+          "amplitude": 0.03,
+          "center": 2.0,
+          "sigma": 1.0
+        }
+      ],
+      "radius": 15.0,
+      "width": 1.0
+    },
+    "lambda_ratio": 1.7012964271664508,
+    "C_ratio": 1.256507390498196,
+    "accepted": true,
+    "checks": {
+      "cdf_repair": true,
+      "coordinate_agreement": true,
+      "grid_refinement": true,
+      "normalization": true
+    },
+    "grid_difference": 1.8762769116165146e-13,
+    "coordinate_disagreement": 2.559508160970836e-12
+  },
+  "local_recomputations": [
+    {
+      "candidate": {
+        "alpha": 0.42,
+        "radius": 15.0,
+        "width": 1.0,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.25,
+            "sigma": 1.75
+          },
+          {
+            "amplitude": 0.03,
+            "center": 2.0,
+            "sigma": 1.0
+          }
+        ]
+      },
+      "grid_size": 8193,
+      "quantile_order": 512,
+      "normalization": 2.0,
+      "hartree": 0.5603719996581273,
+      "sce": 0.15292813060432967,
+      "rho_4_over_3": 0.32426698970094725,
+      "C_ratio": 1.2565073904980575,
+      "lambda_ratio": 1.7012964271662632,
+      "quantile_lambda": 1.7012964272019375,
+      "coordinate_disagreement": 3.5674352361070305e-11,
+      "cdf_monotonicity_repair": 6.772360450213455e-15,
+      "boundary": "C1 square-root taper; finite kinetic density class",
+      "certified": false
+    },
+    {
+      "candidate": {
+        "alpha": 0.42,
+        "radius": 15.0,
+        "width": 1.0,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.25,
+            "sigma": 1.75
+          },
+          {
+            "amplitude": 0.03,
+            "center": 2.0,
+            "sigma": 1.0
+          }
+        ]
+      },
+      "grid_size": 16385,
+      "quantile_order": 1024,
+      "normalization": 2.0,
+      "hartree": 0.5603719996581671,
+      "sce": 0.15292813060432542,
+      "rho_4_over_3": 0.32426698970094664,
+      "C_ratio": 1.2565073904981954,
+      "lambda_ratio": 1.70129642716645,
+      "quantile_lambda": 1.7012964271690096,
+      "coordinate_disagreement": 2.559730205575761e-12,
+      "cdf_monotonicity_repair": 5.10702591327572e-15,
+      "boundary": "C1 square-root taper; finite kinetic density class",
+      "certified": false
+    },
+    {
+      "candidate": {
+        "alpha": 0.42,
+        "radius": 15.0,
+        "width": 1.0,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.25,
+            "sigma": 1.75
+          },
+          {
+            "amplitude": 0.03,
+            "center": 2.0,
+            "sigma": 1.0
+          }
+        ]
+      },
+      "grid_size": 32769,
+      "quantile_order": 2048,
+      "normalization": 2.0000000000000004,
+      "hartree": 0.5603719996581706,
+      "sce": 0.15292813060432314,
+      "rho_4_over_3": 0.32426698970094675,
+      "C_ratio": 1.256507390498213,
+      "lambda_ratio": 1.7012964271664737,
+      "quantile_lambda": 1.7012964271669984,
+      "coordinate_disagreement": 5.24691401437849e-13,
+      "cdf_monotonicity_repair": 1.7763568394002505e-15,
+      "boundary": "C1 square-root taper; finite kinetic density class",
+      "certified": false
+    }
+  ],
+  "independent_verifications": [
+    {
+      "method": "adaptive_radial_quadrature_and_brent_inverse",
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.25,
+            "sigma": 1.75
+          },
+          {
+            "amplitude": 0.03,
+            "center": 2.0,
+            "sigma": 1.0
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "tolerance": 1e-09,
+      "normalization": 2.0,
+      "normalizing_constant": 0.0564961977073129,
+      "hartree": 0.5603719996578355,
+      "sce": 0.15292813060516827,
+      "rho_4_over_3": 0.3242669897009382,
+      "C_ratio": 1.256507390494606,
+      "lambda_ratio": 1.70129642716159,
+      "von_weizsaecker_kinetic": 0.18996967822224797,
+      "quad_estimated_errors": {
+        "normalizer": 1.0237999868707447e-08,
+        "hartree": 5.411270416674983e-10,
+        "sce": 3.373739465301718e-11,
+        "integral": 1.0130150478202182e-10,
+        "kinetic": 8.719781008359462e-10
+      },
+      "elapsed_seconds": 0.6932550210003683,
+      "certified": false,
+      "limitations": "Same SCE formula, independent numerical implementation; no interval arithmetic or global optimality.",
+      "warnings": []
+    },
+    {
+      "method": "adaptive_radial_quadrature_and_brent_inverse",
+      "candidate": {
+        "alpha": 0.42,
+        "bumps": [
+          {
+            "amplitude": -0.2,
+            "center": 5.25,
+            "sigma": 1.75
+          },
+          {
+            "amplitude": 0.03,
+            "center": 2.0,
+            "sigma": 1.0
+          }
+        ],
+        "radius": 15.0,
+        "width": 1.0
+      },
+      "tolerance": 1e-11,
+      "normalization": 1.9999999999999998,
+      "normalizing_constant": 0.05649619770729623,
+      "hartree": 0.560371999658163,
+      "sce": 0.1529281306043198,
+      "rho_4_over_3": 0.3242669897009352,
+      "C_ratio": 1.2565073904982444,
+      "lambda_ratio": 1.7012964271665163,
+      "von_weizsaecker_kinetic": 0.18996967822219676,
+      "quad_estimated_errors": {
+        "normalizer": 7.013767344687949e-11,
+        "hartree": 1.487161917605899e-12,
+        "sce": 1.6605320932098852e-13,
+        "integral": 7.515526541410577e-12,
+        "kinetic": 8.971767773147121e-12
+      },
+      "elapsed_seconds": 1.330041639999763,
+      "certified": false,
+      "limitations": "Same SCE formula, independent numerical implementation; no interval arithmetic or global optimality.",
+      "warnings": []
+    }
+  ],
+  "improvement_over_fixed_scan": 0.0003222885046541002,
+  "difference_above_historical_2016": 0.0002444271664507891,
+  "source_hashes": {
+    "trace.jsonl": "2c1f839eb00710dc4d8edc49b7578c66e59f99cbaba1d744caf93e919fdec4e1",
+    "final_state.json": "48971fb7294160eae5604938bcdde153459823df3456bc7ce6a6e8f94b53f58d"
+  },
+  "verification_environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "versions": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "matplotlib": "3.10.8"
+    }
+  },
+  "claims_limit": [
+    "Hash chain detects changes, not external authentication of authorship/provider receipts.",
+    "SCE density functional numerical result, not a finite-kinetic wavefunction proof.",
+    "No interval arithmetic; numerical agreement is not a theorem.",
+    "Historical benchmark exceeded numerically; current record and novelty unverified.",
+    "Different candidate families and budgets prevent a causal superiority claim over fixed search.",
+    "Run consumed provider-reported plan tokens; monetary cost is not inferred.",
+    "One completed run; no multiple-seed statistical evidence."
+  ]
+}

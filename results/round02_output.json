@@ -1,0 +1,229 @@
+{
+  "action": "evaluate",
+  "results": [
+    {
+      "status": "ok",
+      "verification": {
+        "coarse": {
+          "candidate": {
+            "alpha": 0.35,
+            "radius": 14.0,
+            "width": 1.0,
+            "bumps": []
+          },
+          "grid_size": 8193,
+          "quantile_order": 512,
+          "normalization": 2.0,
+          "hartree": 0.5541983523134616,
+          "sce": 0.1514959928296577,
+          "rho_4_over_3": 0.3205519888209977,
+          "C_ratio": 1.256277838003621,
+          "lambda_ratio": 1.700985615752351,
+          "quantile_lambda": 1.7009856157611172,
+          "coordinate_disagreement": 8.766098957835311e-12,
+          "cdf_monotonicity_repair": 4.9960036108132044e-15,
+          "boundary": "C1 square-root taper; finite kinetic density class",
+          "certified": false
+        },
+        "fine": {
+          "candidate": {
+            "alpha": 0.35,
+            "radius": 14.0,
+            "width": 1.0,
+            "bumps": []
+          },
+          "grid_size": 16385,
+          "quantile_order": 1024,
+          "normalization": 2.0,
+          "hartree": 0.5541983523134503,
+          "sce": 0.15149599282965084,
+          "rho_4_over_3": 0.320551988820976,
+          "C_ratio": 1.256277838003692,
+          "lambda_ratio": 1.7009856157524472,
+          "quantile_lambda": 1.700985615761873,
+          "coordinate_disagreement": 9.425793479067579e-12,
+          "cdf_monotonicity_repair": 0.0,
+          "boundary": "C1 square-root taper; finite kinetic density class",
+          "certified": false
+        },
+        "grid_difference": 9.614531393253856e-14,
+        "checks": {
+          "normalization": true,
+          "grid_refinement": true,
+          "coordinate_agreement": true,
+          "cdf_repair": true
+        },
+        "accepted": true,
+        "note": "Numerically cross-checked; not a certified bound or global optimum."
+      }
+    },
+    {
+      "status": "ok",
+      "verification": {
+        "coarse": {
+          "candidate": {
+            "alpha": 0.4,
+            "radius": 14.0,
+            "width": 1.0,
+            "bumps": []
+          },
+          "grid_size": 8193,
+          "quantile_order": 512,
+          "normalization": 2.0000000000000004,
+          "hartree": 0.5454063801476824,
+          "sce": 0.1492195599369864,
+          "rho_4_over_3": 0.31535783815247154,
+          "C_ratio": 1.2563087777737258,
+          "lambda_ratio": 1.7010275078420711,
+          "quantile_lambda": 1.7010275078344579,
+          "coordinate_disagreement": 7.613243369064548e-12,
+          "cdf_monotonicity_repair": 9.992007221626409e-16,
+          "boundary": "C1 square-root taper; finite kinetic density class",
+          "certified": false
+        },
+        "fine": {
+          "candidate": {
+            "alpha": 0.4,
+            "radius": 14.0,
+            "width": 1.0,
+            "bumps": []
+          },
+          "grid_size": 16385,
+          "quantile_order": 1024,
+          "normalization": 2.0000000000000004,
+          "hartree": 0.5454063801476693,
+          "sce": 0.14921955993698396,
+          "rho_4_over_3": 0.3153578381524484,
+          "C_ratio": 1.2563087777737842,
+          "lambda_ratio": 1.7010275078421502,
+          "quantile_lambda": 1.701027507852346,
+          "coordinate_disagreement": 1.0195844168947588e-11,
+          "cdf_monotonicity_repair": 0.0,
+          "boundary": "C1 square-root taper; finite kinetic density class",
+          "certified": false
+        },
+        "grid_difference": 7.904787935331115e-14,
+        "checks": {
+          "normalization": true,
+          "grid_refinement": true,
+          "coordinate_agreement": true,
+          "cdf_repair": true
+        },
+        "accepted": true,
+        "note": "Numerically cross-checked; not a certified bound or global optimum."
+      }
+    },
+    {
+      "status": "ok",
+      "verification": {
+        "coarse": {
+          "candidate": {
+            "alpha": 0.45,
+            "radius": 14.0,
+            "width": 1.0,
+            "bumps": []
+          },
+          "grid_size": 8193,
+          "quantile_order": 512,
+          "normalization": 2.0,
+          "hartree": 0.5369009179564438,
+          "sce": 0.14701161763487391,
+          "rho_4_over_3": 0.31034598135937896,
+          "C_ratio": 1.2563052971196047,
+          "lambda_ratio": 1.701022795076778,
+          "quantile_lambda": 1.701022795091778,
+          "coordinate_disagreement": 1.5000001241105565e-11,
+          "cdf_monotonicity_repair": 1.1102230246251565e-16,
+          "boundary": "C1 square-root taper; finite kinetic density class",
+          "certified": false
+        },
+        "fine": {
+          "candidate": {
+            "alpha": 0.45,
+            "radius": 14.0,
+            "width": 1.0,
+            "bumps": []
+          },
+          "grid_size": 16385,
+          "quantile_order": 1024,
+          "normalization": 1.9999999999999998,
+          "hartree": 0.5369009179564248,
+          "sce": 0.14701161763489048,
+          "rho_4_over_3": 0.31034598135935465,
+          "C_ratio": 1.2563052971195885,
+          "lambda_ratio": 1.701022795076756,
+          "quantile_lambda": 1.7010227950878514,
+          "coordinate_disagreement": 1.109534686349889e-11,
+          "cdf_monotonicity_repair": 4.107825191113079e-15,
+          "boundary": "C1 square-root taper; finite kinetic density class",
+          "certified": false
+        },
+        "grid_difference": 2.19824158875781e-14,
+        "checks": {
+          "normalization": true,
+          "grid_refinement": true,
+          "coordinate_agreement": true,
+          "cdf_repair": true
+        },
+        "accepted": true,
+        "note": "Numerically cross-checked; not a certified bound or global optimum."
+      }
+    },
+    {
+      "status": "ok",
+      "verification": {
+        "coarse": {
+          "candidate": {
+            "alpha": 0.55,
+            "radius": 14.0,
+            "width": 1.0,
+            "bumps": []
+          },
+          "grid_size": 8193,
+          "quantile_order": 512,
+          "normalization": 2.0000000000000004,
+          "hartree": 0.5206949058665487,
+          "sce": 0.1427892818561759,
+          "rho_4_over_3": 0.3008314240601948,
+          "C_ratio": 1.2562039527318656,
+          "lambda_ratio": 1.7008855759517034,
+          "quantile_lambda": 1.7008855759834864,
+          "coordinate_disagreement": 3.178302065975913e-11,
+          "cdf_monotonicity_repair": 1.1102230246251565e-15,
+          "boundary": "C1 square-root taper; finite kinetic density class",
+          "certified": false
+        },
+        "fine": {
+          "candidate": {
+            "alpha": 0.55,
+            "radius": 14.0,
+            "width": 1.0,
+            "bumps": []
+          },
+          "grid_size": 16385,
+          "quantile_order": 1024,
+          "normalization": 2.0,
+          "hartree": 0.5206949058665227,
+          "sce": 0.14278928185614298,
+          "rho_4_over_3": 0.3008314240601676,
+          "C_ratio": 1.2562039527320021,
+          "lambda_ratio": 1.7008855759518882,
+          "quantile_lambda": 1.7008855759646606,
+          "coordinate_disagreement": 1.2772449764497651e-11,
+          "cdf_monotonicity_repair": 1.887379141862766e-15,
+          "boundary": "C1 square-root taper; finite kinetic density class",
+          "certified": false
+        },
+        "grid_difference": 1.8474111129762605e-13,
+        "checks": {
+          "normalization": true,
+          "grid_refinement": true,
+          "coordinate_agreement": true,
+          "cdf_repair": true
+        },
+        "accepted": true,
+        "note": "Numerically cross-checked; not a certified bound or global optimum."
+      }
+    }
+  ]
+}

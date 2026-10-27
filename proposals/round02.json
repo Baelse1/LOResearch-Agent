@@ -1,0 +1,10 @@
+{
+  "action": "evaluate",
+  "hypothesis": "第一轮宽度1给出lambda约1.700974542，宽度2退步，支持先保留中等平滑层。此前alpha只按0.25间隔扫描，可能错过内部形状最优区间。固定R=14和width=1，在alpha=0.5附近比较较小的幂指数，不提前假定能超过文献。",
+  "candidates": [
+    {"alpha": 0.35, "radius": 14, "width": 1, "bumps": []},
+    {"alpha": 0.4, "radius": 14, "width": 1, "bumps": []},
+    {"alpha": 0.45, "radius": 14, "width": 1, "bumps": []},
+    {"alpha": 0.55, "radius": 14, "width": 1, "bumps": []}
+  ]
+}

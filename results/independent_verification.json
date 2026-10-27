@@ -1,0 +1,82 @@
+[
+  {
+    "method": "adaptive_radial_quadrature_and_brent_inverse",
+    "candidate": {
+      "alpha": 0.42,
+      "bumps": [
+        {
+          "amplitude": -0.2,
+          "center": 5.25,
+          "sigma": 1.75
+        },
+        {
+          "amplitude": 0.03,
+          "center": 2.0,
+          "sigma": 1.0
+        }
+      ],
+      "radius": 15.0,
+      "width": 1.0
+    },
+    "tolerance": 1e-09,
+    "normalization": 2.0,
+    "normalizing_constant": 0.0564961977073129,
+    "hartree": 0.5603719996578355,
+    "sce": 0.15292813060516827,
+    "rho_4_over_3": 0.3242669897009382,
+    "C_ratio": 1.256507390494606,
+    "lambda_ratio": 1.70129642716159,
+    "von_weizsaecker_kinetic": 0.18996967822224797,
+    "quad_estimated_errors": {
+      "normalizer": 1.0237999868707447e-08,
+      "hartree": 5.411270416674983e-10,
+      "sce": 3.373739465301718e-11,
+      "integral": 1.0130150478202182e-10,
+      "kinetic": 8.719781008359462e-10
+    },
+    "elapsed_seconds": 0.6932550210003683,
+    "certified": false,
+    "limitations": "Same SCE formula, independent numerical implementation; no interval arithmetic or global optimality.",
+    "warnings": []
+  },
+  {
+    "method": "adaptive_radial_quadrature_and_brent_inverse",
+    "candidate": {
+      "alpha": 0.42,
+      "bumps": [
+        {
+          "amplitude": -0.2,
+          "center": 5.25,
+          "sigma": 1.75
+        },
+        {
+          "amplitude": 0.03,
+          "center": 2.0,
+          "sigma": 1.0
+        }
+      ],
+      "radius": 15.0,
+      "width": 1.0
+    },
+    "tolerance": 1e-11,
+    "normalization": 1.9999999999999998,
+    "normalizing_constant": 0.05649619770729623,
+    "hartree": 0.560371999658163,
+    "sce": 0.1529281306043198,
+    "rho_4_over_3": 0.3242669897009352,
+    "C_ratio": 1.2565073904982444,
+    "lambda_ratio": 1.7012964271665163,
+    "von_weizsaecker_kinetic": 0.18996967822219676,
+    "quad_estimated_errors": {
+      "normalizer": 7.013767344687949e-11,
+      "hartree": 1.487161917605899e-12,
+      "sce": 1.6605320932098852e-13,
+      "integral": 7.515526541410577e-12,
+      "kinetic": 8.971767773147121e-12
+    },
+    "elapsed_seconds": 1.330041639999763,
+    "certified": false,
+    "limitations": "Same SCE formula, independent numerical implementation; no interval arithmetic or global optimality.",
+    "warnings": []
+  }
+]

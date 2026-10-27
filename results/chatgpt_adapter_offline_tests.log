@@ -1,0 +1,20 @@
+test_callback (test_chatgpt_flow.AuthTests.test_callback) ... ok
+test_local_storage (test_chatgpt_flow.AuthTests.test_local_storage) ... ok
+test_model_catalog (test_chatgpt_flow.AuthTests.test_model_catalog) ... ok
+test_pkce_and_new_registration (test_chatgpt_flow.AuthTests.test_pkce_and_new_registration) ... ok
+test_refresh_rotation (test_chatgpt_flow.AuthTests.test_refresh_rotation) ... ok
+test_returning_client_mismatch (test_chatgpt_flow.AuthTests.test_returning_client_mismatch) ... ok
+test_returning_registration (test_chatgpt_flow.AuthTests.test_returning_registration) ... ok
+test_scope_required (test_chatgpt_flow.AuthTests.test_scope_required) ... ok
+test_signed_identity_validation (test_chatgpt_flow.AuthTests.test_signed_identity_validation) ... ok
+test_body_contract (test_chatgpt_flow.StreamTests.test_body_contract) ... ok
+test_completed (test_chatgpt_flow.StreamTests.test_completed) ... ok
+test_incomplete (test_chatgpt_flow.StreamTests.test_incomplete) ... ok
+test_late_quota_failure (test_chatgpt_flow.StreamTests.test_late_quota_failure) ... ok
+test_mocked_graph_and_stream (test_chatgpt_flow.StreamTests.test_mocked_graph_and_stream) ... ok
+test_partial_is_not_success (test_chatgpt_flow.StreamTests.test_partial_is_not_success) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.122s
+
+OK

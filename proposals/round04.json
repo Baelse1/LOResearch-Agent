@@ -1,0 +1,10 @@
+{
+  "action": "evaluate",
+  "hypothesis": "第三轮在r=1附近加入正扰动使lambda升至约1.701031337；负扰动和r=3处的两种扰动均退步。因此先沿内侧正扰动方向细化，但不假设振幅越大越好。比较0.015、0.025、0.035、0.075，检验是否存在过度扰动导致的下降。",
+  "candidates": [
+    {"alpha": 0.4, "radius": 14, "width": 1, "bumps": [{"amplitude": 0.015, "center": 1, "sigma": 0.8}]},
+    {"alpha": 0.4, "radius": 14, "width": 1, "bumps": [{"amplitude": 0.025, "center": 1, "sigma": 0.8}]},
+    {"alpha": 0.4, "radius": 14, "width": 1, "bumps": [{"amplitude": 0.035, "center": 1, "sigma": 0.8}]},
+    {"alpha": 0.4, "radius": 14, "width": 1, "bumps": [{"amplitude": 0.075, "center": 1, "sigma": 0.8}]}
+  ]
+}

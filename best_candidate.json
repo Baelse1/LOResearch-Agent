@@ -1,0 +1,17 @@
+{
+  "alpha": 0.42,
+  "bumps": [
+    {
+      "amplitude": -0.2,
+      "center": 5.25,
+      "sigma": 1.75
+    },
+    {
+      "amplitude": 0.03,
+      "center": 2.0,
+      "sigma": 1.0
+    }
+  ],
+  "radius": 15.0,
+  "width": 1.0
+}
